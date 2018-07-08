@@ -1,5 +1,5 @@
 // Add your doToElementsInArray() function here:
-function changeCompletely(element, index, array){
+function changeCompletely(index, array){
  array[index] = `${array[index]} has balls`;
 };
 function doToElementsInArray(array, callback){
