@@ -2,7 +2,7 @@
 function doToElementsInArray(array, callback){
   array.forEach(callback)
 };
-function changeCompletely(element, i, array){
+function changeCompletely(i, array){
  array[i] = array[i].toUpperCase()
 };
 
