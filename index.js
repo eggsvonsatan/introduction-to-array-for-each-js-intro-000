@@ -2,8 +2,8 @@
 function doToElementsInArray(array, callback){
   array.forEach(callback)
 };
-function changeCompletely(index, array){
- array[index] = array[index] + "s!!!"
+function changeCompletely(array){
+ array = array.toUpperCase()
 };
 
 // Add your changeCompletely() function here:
