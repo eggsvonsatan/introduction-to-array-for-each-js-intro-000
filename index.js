@@ -2,8 +2,8 @@
 function doToElementsInArray(array, callback){
   array.forEach(callback)
 }
-function changeCompletely(){
-
+function changeCompletely(array[i], i, callback){
+ array[i] = array[i] + "are cool"
 }
 
 // Add your changeCompletely() function here:
